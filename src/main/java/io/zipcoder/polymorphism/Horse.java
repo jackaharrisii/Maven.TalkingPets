@@ -1,8 +1,12 @@
 package io.zipcoder.polymorphism;
 
-public class Horse {
+public class Horse extends Pet{
+
+    public Horse (String petName){
+        super(petName);
+    }
 
     public String speak() {
-        return null;
+        return "Neigh";
     }
 }
