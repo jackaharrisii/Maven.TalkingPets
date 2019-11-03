@@ -4,8 +4,8 @@ public class Pet {
 
     public String petName;
 
-    public String Speak(){
-        return null;
+    public String speak(){
+        return "I'm a pet";
     }
 
     public String getPetName() {
@@ -16,4 +16,7 @@ public class Pet {
         this.petName = petName;
     }
 
+    public Pet(String petName) {
+        this.petName = petName;
+    }
 }

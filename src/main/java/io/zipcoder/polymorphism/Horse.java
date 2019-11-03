@@ -2,6 +2,7 @@ package io.zipcoder.polymorphism;
 
 public class Horse {
 
-    private boolean isDelicious;
-
+    public String speak() {
+        return null;
+    }
 }
