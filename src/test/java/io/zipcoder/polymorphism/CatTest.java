@@ -32,7 +32,7 @@ public class CatTest {
         Cat cat2 = new Cat("Bob");
         System.out.println(cat.speak());
         System.out.println(cat.getClass().getName());
-        System.out.println(cat.sleepAllDay());
+//        System.out.println(cat.sleepAllDay());
 
 
 ////        String expected = "Kathy";
