@@ -30,7 +30,7 @@ public class PetTest {
 
 
         String expected = "Kathy";
-        String actual = pet.getPetName();
+        String actual = pet1.getPetName();
         Assert.assertEquals(expected, actual);
     }
 

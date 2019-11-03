@@ -17,7 +17,7 @@ public class HorseTest {
     @Test
     public void horseSpeakTest() {
         Horse horse = new Horse("Dan");
-        String expected = "Neigh Neigh";
+        String expected = "Neigh";
         String actual = horse.speak();
 
         Assert.assertEquals(expected, actual);
@@ -32,7 +32,7 @@ public class HorseTest {
 
 
         String expected = "Kathy";
-        String actual = horse.getPetName();
+        String actual = horse1.getPetName();
         Assert.assertEquals(expected, actual);
     }
 

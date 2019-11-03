@@ -18,7 +18,7 @@ public class CatTest {
     @Test
     public void catSpeakTest() {
         Cat cat = new Cat("Bo");
-        String expected = "Meow Meow";
+        String expected = "meow";
         String actual = cat.speak();
 
 
@@ -27,14 +27,14 @@ public class CatTest {
 
 
     @Test
-    public void geCatNameTest() {
+    public void getCatNameTest() {
         Cat cat = new Cat("Tim");
         Cat cat1 = new Cat("Kathy");
         Cat cat2 = new Cat("Bob");
         System.out.println(cat.speak());
         System.out.println(cat.getClass().getName());
         String expected = "Kathy";
-        String actual = cat.getPetName();
+        String actual = cat1.getPetName();
 
         Assert.assertEquals(expected, actual);
     }

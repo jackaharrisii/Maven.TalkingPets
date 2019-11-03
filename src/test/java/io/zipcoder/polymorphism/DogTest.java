@@ -18,7 +18,7 @@ public class DogTest {
     @Test
     public void dogSpeakTest() {
         Dog dog = new Dog("Henry");
-        String expected = "Woof Woof";
+        String expected = "Woof!!!";
         String actual = dog.speak();
 
         Assert.assertEquals(expected, actual);
@@ -32,7 +32,7 @@ public class DogTest {
         Dog dog2 = new Dog("Bob");
 
         String expected = "Kathy";
-        String actual = dog.getPetName();
+        String actual = dog1.getPetName();
         Assert.assertEquals(expected, actual);
     }
 }
